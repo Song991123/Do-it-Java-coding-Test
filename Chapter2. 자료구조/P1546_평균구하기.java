@@ -14,18 +14,15 @@ public class P1546_평균구하기 {
         // 1. 입력값 받기
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
-        int A[] = new int[N];
-        for(int i = 0; i < N; i++){
-            A[i] = sc.nextInt();
-        }
 
         // 2. 미리 기록해둘 변수 값들 
         long sum = 0;
         long max = 0;
 
         for (int i = 0; i < N; i++){
-            sum = sum + A[i];
-            if (max < A[i]) max = A[i];
+            int temp = sc.nextInt();
+            sum = sum + temp;
+            if (max < temp) max = temp;
         }
 
         // 3. 평균을 구해서 출력
