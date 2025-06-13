@@ -59,3 +59,31 @@
 ### 🔍 2. 문제 풀이
 - [백준 1940번 - 주몽의 명령](https://www.acmicpc.net/problem/1940)
 - [백준 12891번 - DNA 비밀번호](https://www.acmicpc.net/problem/12891)
+
+## 📅 6월 13일 회고
+
+### ✅ 1. 학습한 개념 요약
+
+#### 📌 스택 (Stack)
+- LIFO (Last In First Out) 구조
+- `push()` → 데이터 삽입, `pop()` → 데이터 제거
+- 괄호 검사, 수식 계산, DFS 등에서 자주 활용
+
+#### 📌 큐 (Queue)
+- FIFO (First In First Out) 구조
+- `add()` → 삽입, `poll()` → 제거
+- BFS, 순차적 처리 로직에서 활용
+- `Queue`는 인터페이스이므로 `new Queue()`는 불가 → `LinkedList`로 구현
+
+#### 📌 우선순위 큐 (PriorityQueue)
+- 내부적으로 힙(Heap) 구조 사용
+- 기본 정렬 기준은 최소 힙 (값이 작을수록 우선)
+- 커스텀 정렬 시 `Comparator`를 사용하여 기준 변경
+
+---
+
+### 🔍 2. 문제 풀이
+
+- [백준 1874번 - 스택 수열](https://www.acmicpc.net/problem/1874)
+- [백준 2164번 - 카드2](https://www.acmicpc.net/problem/2164)
+- [백준 11286번 - 절댓값 힙](https://www.acmicpc.net/problem/11286)
