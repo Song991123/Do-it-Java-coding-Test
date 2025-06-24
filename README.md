@@ -221,7 +221,7 @@
 result += count[0] * (count[0] - 1) / 2; // 나머지 0인 경우
 for (int i = 1; i < M; i++) {
     result += count[i] * (count[i] - 1) / 2;
-}
+}```
 
 ### 🔍 2. 문제 풀이
 
